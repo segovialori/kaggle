@@ -72,3 +72,15 @@ def to_smash(total_candies, total_friends = 3):
     return total_candies % total_friends
 
 # Booleans and conditionals
+
+# 1.  Many programming languages have sign available as a built-in function. Python doesn't, but we can define our own!
+
+# In the cell below, define a function called sign which takes a numerical argument and returns -1 if it's negative, 1 if it's positive, and 0 if it's 0.
+
+def sign(num):
+    if num < 0:
+        return -1
+    elif num > 0:
+        return 1
+    else:
+        return 0
