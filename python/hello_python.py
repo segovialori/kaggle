@@ -70,3 +70,5 @@ def to_smash(total_candies, total_friends = 3):
     1
     """
     return total_candies % total_friends
+
+# Booleans and conditionals
