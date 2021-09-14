@@ -92,3 +92,13 @@ else:
 Here's a slightly more succinct solution using a conditional expression:
 
 print("Splitting", total_candies, "candy" if total_candies == 1 else "candies")
+
+#4
+# It does not have the second argument to round two places, function not defined, and there is a grammatical error
+# ruound_to_two_places(9.9999)
+
+def round_two_places(num):
+    """
+    This function will take in a number and round to two decimal places
+    """
+    return round(num, 2)
